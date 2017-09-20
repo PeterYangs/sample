@@ -20,3 +20,6 @@ Route::get('/help', 'StaticPagesController@help');
 Route::get('/about', 'StaticPagesController@about');
 
 
+Route::get('login','UsersController@create')->name('login');
+
+
